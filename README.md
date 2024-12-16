@@ -1,16 +1,10 @@
-# jp_text_recognizer
+# Flutter Japanese Language Character Half-Width and Full-Width Characters Recognizer
 
-A new Flutter project.
+# Overview
+The Flutter Japanese Language Character Half-Width and Full-Width Recognizer is a tool or utility designed to detect and handle half-width and full-width characters in Japanese text. In the context of Flutter, this recognizer can be used to differentiate between these two types of character formats, which is important for applications that handle Japanese language input or display, such as chat applications, form validations, or text processing tools.
 
-## Getting Started
+# What Are Half-Width and Full-Width Characters?
 
-This project is a starting point for a Flutter application.
+- Full-width characters (zenkaku) are the standard format for most Japanese characters, including hiragana, katakana, and kanji, as well as punctuation marks. They take up double the width of ASCII characters and are used in normal Japanese text.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Half-width characters (hankaku) are narrower characters used in digital environments where space is limited. Typically, half-width versions are used for katakana, ASCII characters, and punctuation.
